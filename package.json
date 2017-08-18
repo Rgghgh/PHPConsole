@@ -4,19 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "start http://localhost/ && php -S 127.0.0.1:80",
-    "build": "\"./node_modules/.bin/webpack\" src/index.js dist/bundle.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rgghgh/PHPConsole.git"
   },
-  "keywords": [
-    "php",
-    "console",
-    "testing"
-  ],
-  "author": "rgghgh",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Rgghgh/PHPConsole/issues"
@@ -27,9 +21,10 @@
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "webpack": "^3.5.5"
   }
 }
