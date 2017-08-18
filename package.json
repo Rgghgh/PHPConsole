@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "php -S 127.0.0.1:80 && start http://localhost/"
+    "test": "lauch.bat"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Rgghgh/PHPConsole/issues"
   },
-  "homepage": "https://github.com/Rgghgh/PHPConsole#readme"
+  "homepage": "https://github.com/Rgghgh/PHPConsole#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
 }
