@@ -1,3 +1,7 @@
+body {
+    zoom: 160%;
+}
+
 #editor {
     position: absolute;
     top: 0;
@@ -12,5 +16,13 @@
     right: 0;
     bottom: 0;
     left: 0;
+    border: 0;
+}
+
+#response iframe {
+    display: block;
+    border: none;
+    height: 100vh;
+    width: 100vw;
     border: 0;
 }
