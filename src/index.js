@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import * as $ from "jquery";
 
-class Hello extends React.Component {
+class App extends React.Component {
     render() {
         return <h1>Hello</h1>
     }
 }
 
-ReactDOM.render(<Hello/>, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
