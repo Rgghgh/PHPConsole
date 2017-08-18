@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "lauch.bat"
+    "start": "start http://localhost/ && php -S 127.0.0.1:80",
+    "build": "\"./node_modules/.bin/webpack\" src/index.js dist/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,11 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1",
+    "webpack": "^3.5.5"
   }
 }
