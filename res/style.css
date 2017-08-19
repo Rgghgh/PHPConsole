@@ -1,20 +1,36 @@
-body {
-    zoom: 160%;
-}
-
-#editor {
+#container {
     position: fixed;
     top: 0;
-    right: 0;
-    bottom: 30vh;
+    bottom: 0;
     left: 0;
+    right: 0;
 }
 
 #response {
+    position: relative;
+}
+
+#response iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#controls {
     position: fixed;
-    height: 25vh;
+    top: 25px;
     right: 25px;
-    bottom: 0;
-    left: 25px;
-    border: 0;
+    background-color: #CCCCCC;
+    z-index: 100;
+    border-radius: 5px;
+}
+
+#controls div {
+    font-size: 25px;
+    padding: 10px 15px;
+    display: inline-block;
+    font-weight: bolder;
+    font-family: Tahoma, serif;
+    cursor: pointer;
 }
