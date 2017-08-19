@@ -13,6 +13,6 @@ editor.focus();
 
 editor.on('change', function() {
     $.post('run.php', {'php': editor.getValue()}, function (r) {
-        response.innerHTML = r;
+        response.innerText = r;
     })
 });
